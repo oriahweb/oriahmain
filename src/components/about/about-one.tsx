@@ -2,7 +2,7 @@
 import React, { CSSProperties } from "react";
 import Image from "next/image";
 // images
-import ab_1 from "@/assets/img/home-02/about/abt5.jpg";
+import ab_5 from "@/assets/img/home-02/about/about5.jpg";
 import ab_2 from "@/assets/img/home-02/about/abt2.png";
 import ab_3 from "@/assets/img/home-02/about/abt1.png";
 
@@ -26,7 +26,7 @@ const AboutOne = () => {
           <div className="col-xl-5 col-lg-6 col-md-6 order-1 order-xl-0">
             <div className="tp-about-2-thumb-box p-relative">
               <div className="tp-about-2-thumb-main">
-                <Image src={ab_1} alt="ab-img" style={imgStyle} />
+                <Image src={ab_5} alt="ab-img" style={imgStyle} />
               </div>
               <div className="tp-about-2-thumb-inner">
                 <Image src={ab_2} alt="ab-img" style={imgStyle} />
