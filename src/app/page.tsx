@@ -59,7 +59,7 @@ const HomeTwoMain = () => {
   return (
     <Wrapper>
       <Head>
-        <title>Oria Consulting - Agence de conseil en stratégie digitale</title>
+        <title>Oria Consulting - Agence de conseil en stratégie digitale.</title>
         <meta name="description" content="Oria Consulting est une agence de conseil en stratégie digitale qui aide les entreprises à se développer en ligne." />
         <link rel="icon" href="/faviconOriah.ico" />
         <link rel="shortcut icon" href="/faviconOriah.ico" />
