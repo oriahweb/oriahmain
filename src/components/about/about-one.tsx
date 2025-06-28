@@ -40,15 +40,15 @@ const AboutOne = () => {
             <div className="tp-about-2-content" style={{ textAlign:'justify'}}>
               <span>Votre vision. Notre mission digitale.</span>
               <p className="mb-30">
-                Installés à Paris, nous accompagnons toutes sortes d'entreprises
+                Installés à Paris, nous accompagnons toutes sortes d&apos;entreprises
                 dans leur transformation digitale. De la création de sites web
                 au référencement SEO, nous vous offrons des solutions sur
-                mesure. Chaque projet est abordé comme s'il était le nôtre —
+                mesure. Chaque projet est abordé comme s&apos;il était le nôtre —
                 avec passion, précision et vision.
               </p>
               <p className="mb-0">
               Nous prenons le temps de comprendre votre marque avant de créer.
-              Parce que quelque chose de grand est sur le point d'arriver.
+              Parce que quelque chose de grand est sur le point d&apos;arriver.
               </p>
             </div>
           </div>

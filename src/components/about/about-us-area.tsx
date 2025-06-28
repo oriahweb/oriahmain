@@ -49,10 +49,10 @@ export default function AboutUsArea() {
               <p className="tp_fade_bottom " style={{fontSize: "32px" , textAlign: "justify"}}>
                 Oriah Consulting est une agence de création digitale spécialisée dans la
                 fourniture de solutions numériques complètes et de haute qualité. Notre expertise
-                s'étend du développement web professionnel à la conception graphique créative,
-                en passant par l'optimisation SEO stratégique et la gestion de campagnes
+                s&apos;étend du développement web professionnel à la conception graphique créative,
+                en passant par l&apos;optimisation SEO stratégique et la gestion de campagnes
                 publicitaires performantes. Notre équipe talentueuse de designers, développeurs
-                et experts marketing s'engage à transformer votre vision en réalité digitale
+                et experts marketing s&apos;engage à transformer votre vision en réalité digitale
                 qui se démarque.
               </p>
             </div>

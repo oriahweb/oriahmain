@@ -50,7 +50,7 @@ export default function InstagramArea() {
           </div>
           <div className="tp-instagram-content">
             <p>
-              Suivez-nous pour faire partie de l'aventure <br /> et mettre votre travail en ligne.
+              Suivez-nous pour faire partie de l&apos;aventure <br /> et mettre votre travail en ligne.
             </p>
             <a className="tp-btn-white background-black" href="https://www.instagram.com/oriahconsulting">
               Suivez-nous
