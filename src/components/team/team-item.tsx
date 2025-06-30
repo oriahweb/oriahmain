@@ -2,27 +2,29 @@ import React from "react";
 import Image from "next/image";
 import { ITeamDT } from "@/types/team-d-t";
 
-// prop type 
-type IProps = {
-  item:ITeamDT;
-  handleTeamModal(team: ITeamDT): void;
-}
+type Props = {
+  item: ITeamDT;
+};
 
-export default function TeamItem({ item,handleTeamModal }:IProps) {
+export default function TeamItem({ item }: Props) {
   return (
-    <div className="tp-team-item tp-hover-btn-wrapper marque fix mb-30">
-      <div className="tp-hover-btn-item">
-        <Image src={item.image} alt="team-img" width={375} height={464} />
+    <div className="text-center">
+      <div className="mb-3">
+        <Image
+          src={item.image}
+          alt={item.name}
+          width={220}
+          height={220}
+          style={{
+            borderRadius: "50%",
+            objectFit: "cover",
+          }}
+        />
       </div>
-      <div className="tp-team-content">
-        <span>{item.designation}</span>
-        <h4
-          className="tp-team-title-sm"
-          onClick={()=> handleTeamModal(item)}
-        >
-          <a href="#">{item.name}</a>
-        </h4>
-      </div>
+      <h5 style={{ fontSize: "1.1rem", fontWeight: "600", marginBottom: "0.25rem" }}>
+        {item.name}
+      </h5>
+        <p style={{ margin: 0, fontSize: "0.9rem", color: "#666" }}>{item.designation}</p>
     </div>
   );
 }
