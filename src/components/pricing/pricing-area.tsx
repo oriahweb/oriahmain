@@ -5,7 +5,7 @@ import Link from "next/link";
 const pricing_data = [
   {
     id: 1,
-    bg: "/assets/img/price/pricebg1.png",
+    bg: "/assets/img/price/pricingImage1.png",
     title: "Norme d'achat de médias",
     price: 600,
     features: [
@@ -18,7 +18,7 @@ const pricing_data = [
   },
   {
     id: 2,
-    bg: "/assets/img/price/pricebg2.jpg",
+    bg: "/assets/img/price/pricingImage2.jpg",
     title: "Achat de médias avancé",
     price: 800,
     features: [
@@ -32,7 +32,7 @@ const pricing_data = [
   },
   {
     id: 3,
-    bg: "/assets/img/price/pricebg3.jpg",
+    bg: "/assets/img/price/pricingImage3.jpg",
     title: "Achat de médias Premium",
     price: 1000,
     features: [
@@ -45,7 +45,7 @@ const pricing_data = [
   },
   {
     id: 4,
-    bg: "/assets/img/price/pricebg1.png",
+    bg: "/assets/img/price/pricingImage1.png",
     title: "Création de site internet Standart",
     price: 1099,
     features: [
@@ -58,7 +58,7 @@ const pricing_data = [
   },
   {
     id: 5,
-    bg: "/assets/img/price/pricebg2.jpg",
+    bg: "/assets/img/price/pricingImage2.jpg",
     title: "Création de site internet Avancé",
     price: 1399,
     features: [
@@ -72,7 +72,7 @@ const pricing_data = [
   },
   {
     id: 6,
-    bg: "/assets/img/price/pricebg3.jpg",
+    bg: "/assets/img/price/pricingImage3.jpg",
     title: "Création de site internet Premium",
     price: 1599,
     features: [
@@ -86,7 +86,7 @@ const pricing_data = [
   },
   {
     id: 7,
-    bg: "/assets/img/price/pricebg1.png",
+    bg: "/assets/img/price/pricingImage1.png",
     title: "E-commerce Standart",
     price: 1299,
     features: [
@@ -100,7 +100,7 @@ const pricing_data = [
   },
   {
     id: 8,
-    bg: "/assets/img/price/pricebg2.jpg",
+    bg: "/assets/img/price/pricingImage2.jpg",
     title: "E-commerce Avancé",
     price: 1499,
     features: [
@@ -114,7 +114,7 @@ const pricing_data = [
   },
   {
     id: 9,
-    bg: "/assets/img/price/pricebg3.jpg",
+    bg: "/assets/img/price/pricingImage3.jpg",
     title: "E-commerce Premium",
     price: 1799,
     features: [
@@ -127,7 +127,7 @@ const pricing_data = [
   },
   {
     id: 10,
-    bg: "/assets/img/price/pricebg1.png",
+    bg: "/assets/img/price/pricingImage1.png",
     title: "SEO Optimisation Standart",
     price: 300,
     features: [
@@ -140,7 +140,7 @@ const pricing_data = [
   },
   {
     id: 11  ,
-    bg: "/assets/img/price/pricebg2.jpg",
+    bg: "/assets/img/price/pricingImage2.jpg",
     title: "SEO Optimisation Avancé",
     price: 600,
     features: [
@@ -153,7 +153,7 @@ const pricing_data = [
   },
   {
     id: 12,
-    bg: "/assets/img/price/pricebg3.jpg",
+    bg: "/assets/img/price/pricingImage3.jpg",
     title: "SEO Optimisation Premium",
     price: 800,
     features: [
@@ -165,7 +165,7 @@ const pricing_data = [
     ],
   },  {
     id: 13,
-    bg: "/assets/img/price/pricebg1.png",
+    bg: "/assets/img/price/pricingImage1.png",
     title: "Chatbot IA Standart",
     price: 699,
     features: [
@@ -178,7 +178,7 @@ const pricing_data = [
   },
   {
     id: 14,
-    bg: "/assets/img/price/pricebg2.jpg",
+    bg: "/assets/img/price/pricingImage2.jpg",
     title: "Chatbot IA Avancé",
     price: 999,
     features: [
@@ -191,7 +191,7 @@ const pricing_data = [
   },
   {
     id: 15,
-    bg: "/assets/img/price/pricebg3.jpg",
+      bg: "/assets/img/price/pricingImage3.jpg",
     title: "Chatbot IA Premium",
     price: 1299,
     features: [
