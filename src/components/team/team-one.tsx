@@ -2,7 +2,6 @@
 import React from "react";
 import team_data from "@/data/team-data";
 import TeamItem from "./team-item";
-import { ITeamDT } from "@/types/team-d-t";
 
 // prop type
 type IProps = {
