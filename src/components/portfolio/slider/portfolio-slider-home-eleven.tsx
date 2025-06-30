@@ -153,7 +153,6 @@ export default function PortfolioSliderHomeEleven() {
         <div
           className="port-showcase-slider-wrap tp-slider-parallax fix"
           id="showcase-slider-holder"
-          data-pattern-img="/assets/img/webgl/1.jpg"
         >
           <div
             className="swiper-container parallax-slider-active p-relative"
@@ -164,7 +163,7 @@ export default function PortfolioSliderHomeEleven() {
               slidesPerView="auto"
               touchStartPreventDefault={false}
               speed={1000}
-              effect="fade"
+              effect=""
               loop={true}                 
               mousewheel={true}
               simulateTouch={true}
@@ -192,12 +191,12 @@ export default function PortfolioSliderHomeEleven() {
                             <span className="port-showcase-slider-subtitle" style={{color: item.color}}>
                               {item.subtitle}
                             </span>
-                            <h4 className="port-showcase-slider-title" style={{color: item.color}}>
-                              <Link
+                            <h5 className="port-showcase-slider-title responsive-title" style={{ color: item.color }}>
+                            <Link
                                 href={item.link}
                                 dangerouslySetInnerHTML={{ __html: item.title }}
                               ></Link>
-                            </h4>
+                            </h5>
                           </div>
                         </div>
                       </div>

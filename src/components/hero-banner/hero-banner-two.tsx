@@ -72,7 +72,7 @@ const HeroBannerTwo = () => {
                     </p>
                     <Link
                       className="tp-btn-white"
-                      href="/portfolio-grid-col-3-fullwidth"
+                      href="/contact"
                     >
                       Contactez-nous
                       <span>

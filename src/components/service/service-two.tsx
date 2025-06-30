@@ -1,15 +1,13 @@
 import React from "react";
 import { Leaf } from "../svg";
 import Image from "next/image";
+
 // service icon
 import ser_1 from "@/assets/img/home-02/service/sv-icon-one.png";
 import ser_2 from "@/assets/img/home-02/service/sv-icon-2.png";
 import ser_3 from "@/assets/img/home-02/service/sv-icon-3.png";
 import ser_4 from "@/assets/img/home-02/service/sv-icon-4.png";
 import ser_5 from "@/assets/img/home-02/service/sv-icon-5.png";
-
-// shape
-import shape from "@/assets/img/home-02/service/sv-shape-1.png";
 
 const service_accordion = [
   {
@@ -46,7 +44,7 @@ const service_accordion = [
 
 export default function ServiceTwo() {
   return (
-    <div className="tp-service-2-area tp-service-2-pt  pb-150 z-index-5">
+    <div className="tp-service-2-area tp-service-2-pt pb-100 z-index-5">
       <div className="container container-1480">
         <div className="row">
           <div className="col-xl-8">
@@ -58,19 +56,14 @@ export default function ServiceTwo() {
                 Nos Services
               </span>
               <h4 className="tp-section-title-40">
-              Proposez une large gamme de services pour aider les entreprises 
-              à établir et à renforcer leur présence en ligne.
+                Proposez une large gamme de services pour aider les entreprises 
+                à établir et à renforcer leur présence en ligne.
               </h4>
             </div>
           </div>
         </div>
-        <div className="row align-items-center">
-          <div className="col-xxl-6 col-xl-4 col-lg-4">
-            <div className="tp-service-2-shape-img text-center text-lg-start">
-              <Image src={shape} alt="" />
-            </div>
-          </div>
-          <div className="col-xxl-6 col-xl-8 col-lg-8">
+        <div className="row justify-content-center">
+          <div className="col-12">
             <div className="tp-service-2-accordion-box">
               <div className="accordion" id="accordionExample">
                 {service_accordion.map((s) => (
@@ -81,7 +74,7 @@ export default function ServiceTwo() {
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target={`#collapse-${s.id}`}
-                        aria-expanded="false"
+                        aria-expanded={s.id === 1 ? "true" : "false"}
                         aria-controls={`collapse-${s.id}`}
                       >
                         <span>

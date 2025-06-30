@@ -22,30 +22,30 @@ const project_data = [
     subtitle: "Création Graphique",
     title: "Contenus Créatifs",
   },
-  {
-    id: 4,
-    img: "/assets/img/home-02/project/project4.jpg",
-    subtitle: "Référencement",
-    title: "SEO & Visibilité",
-  },
-  {
-    id: 5,
-    img: "/assets/img/home-02/project/project5.jpg",
-    subtitle: "Développement",
-    title: "Solutions sur Mesure",
-  },
-  {
-    id: 6,
-    img: "/assets/img/home-02/project/project6.jpg",
-    subtitle: "Publicité",
-    title: "Campagnes Meta Ads",
-  },
-  {
-    id: 7,
-    img: "/assets/img/home-02/project/project8.jpg",
-    subtitle: "Stratégie Digitale",
-    title: "Croissance Business",
-  },
+  // {
+  //   id: 4,
+  //   img: "/assets/img/home-02/project/project4.jpg",
+  //   subtitle: "Référencement",
+  //   title: "SEO & Visibilité",
+  // },
+  // {
+  //   id: 5,
+  //   img: "/assets/img/home-02/project/project5.jpg",
+  //   subtitle: "Développement",
+  //   title: "Solutions sur Mesure",
+  // },
+  // {
+  //   id: 6,
+  //   img: "/assets/img/home-02/project/project6.jpg",
+  //   subtitle: "Publicité",
+  //   title: "Campagnes Meta Ads",
+  // },
+  // {
+  //   id: 7,
+  //   img: "/assets/img/home-02/project/project8.jpg",
+  //   subtitle: "Stratégie Digitale",
+  //   title: "Croissance Business",
+  // },
 ];
 
 

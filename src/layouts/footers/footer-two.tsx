@@ -52,12 +52,12 @@ export default function FooterTwo({ whiteFooter = false,topCls='footer-top' }: I
                 <div className="tp-footer-2-widget-menu">
                   <h4 className="tp-footer-2-widget-title">Liens rapides</h4>
                   <ul>
-                    <li><a href="#">A propos de nous</a></li>
-                    <li><a href="#">Nos services</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li> <a href="#">Nos tarifs</a></li>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Contactez-nous</a></li>
+                    <li><a href="/about-us">À propos de l&apos;agence</a></li>
+                    <li><a href="/service">Nos services</a></li>
+                    <li><a href="/home-11">Portfolio</a></li>
+                    <li> <a href="/pricing">Nos tarifs</a></li>
+                    <li><a href="/faq">FAQ</a></li>
+                    <li><a href="/contact">Contactez-nous</a></li>
                   </ul>
                 </div>
               </div>

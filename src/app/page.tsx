@@ -93,7 +93,7 @@ const HomeTwoMain = () => {
             {/* service area end */}
 
             {/* project area */}
-            <ProjectTwo/>
+            {/* <ProjectTwo/> */}
             {/* project area */}
 
             {/* line text area */}
