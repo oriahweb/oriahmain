@@ -6,7 +6,7 @@ const pricing_data = [
   {
     id: 1,
     bg: "/assets/img/price/pricingImage1.png",
-    title: "Norme d'achat de médias",
+    title: "Media Buying Standard",
     price: 600,
     features: [
       "Campagne publicitaire sur 1 produit ou service",
@@ -19,7 +19,7 @@ const pricing_data = [
   {
     id: 2,
     bg: "/assets/img/price/pricingImage2.jpg",
-    title: "Achat de médias avancé",
+    title: "Media Buying Advanced",
     price: 800,
     features: [
       "Campagne publicitaire sur 2 produits ou services",
@@ -33,7 +33,7 @@ const pricing_data = [
   {
     id: 3,
     bg: "/assets/img/price/pricingImage3.jpg",
-    title: "Achat de médias Premium",
+    title: "Media Buying Premium",
     price: 1000,
     features: [
       "Campagne publicitaire sur 3 produits ou services",
@@ -228,7 +228,7 @@ export default function PricingArea() {
                 </div>
                 <div className="tp-price-body">
                   <span className="tp-price-monthly">
-                  €<i>{item.price}</i>/ une fois
+                  €<i>{item.price}</i>/ par mois
                   </span>
                   <div className="tp-price-list">
                     <ul>
