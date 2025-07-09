@@ -186,19 +186,22 @@ export default function PortfolioSliderHomeEleven() {
                   <div className="container">
                     <div className="row">
                       <div className="col-xl-8">
+                      <Link href={item.link} className="d-block" style={{ textDecoration: "none" }}>
+
                         <div className="port-showcase-slider-item">
                           <div className="port-showcase-slider-content">
-                            <span className="port-showcase-slider-subtitle" style={{color: item.color}}>
+                            {/* <span className="port-showcase-slider-subtitle" style={{color: item.color}}>
                               {item.subtitle}
-                            </span>
+                            </span> */}
                             <h5 className="port-showcase-slider-title responsive-title" style={{ color: item.color }}>
-                            <Link
+                            {/* <Link
                                 href={item.link}
                                 dangerouslySetInnerHTML={{ __html: item.title }}
-                              ></Link>
+                              ></Link> */}
                             </h5>
                           </div>
                         </div>
+                      </Link>
                       </div>
                     </div>
                   </div>

@@ -55,9 +55,7 @@ const PricingMain = () => {
                       </div>
                       <div className="tm-hero-text">
                         <p className="tp_title_anim">
-                          Choisissez la bonne offre et lancez .{" "}
-                          <br />
-                          votre projet.
+                          Choisissez la bonne offre et lancez votre projet.
                         </p>
                       </div>
                     </div>

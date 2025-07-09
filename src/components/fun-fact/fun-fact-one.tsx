@@ -11,13 +11,13 @@ const counter_data = [
   },
   {
     id: 2,
-    title: "ANNÉES D&apos;EXPÉRIENCE",
+    title: "ANNÉES D'EXPÉRIENCE",
     count: 3,
     text: "+",
   },
   {
     id: 3,
-    title: "TEAM MEMBERS",
+    title: "MEMBRES D'ÉQUIPE",
     count: 2,
     text: "",
   },

@@ -13,8 +13,8 @@ const service_data = [
   {
     id: 1,
     img: ser_img_1,
-    subtitle: "Agence Digitale",
-    title: "Media Buying & Publicité",
+    subtitle: "Médias numériques",
+    title: "Media Buying (Publicité)",
     text: "Nous concevons et exécutons des campagnes publicitaires précises pour un produit ou service, en maximisant votre retour sur investissement grâce à une analyse stratégique et des ajustements en temps réel.",
     lists: [
       "Campagne publicitaire ciblée",
@@ -40,8 +40,8 @@ const service_data = [
     id: 3,
     img: ser_img_3,
     subtitle: "Référencement & Ads",
-    title: "SEO & Meta Ads",
-    text: "Boostez votre visibilité sur les moteurs de recherche et les réseaux sociaux grâce à un référencement naturel puissant et des publicités Meta performantes.",
+    title: "SEO",
+    text: "Boostez votre visibilité sur les moteurs de recherche et les réseaux sociaux grâce à un référencement naturel performant.",
     lists: [
       "Optimisation SEO technique et contenu",
       "Campagnes Meta Ads ciblées",

@@ -56,8 +56,9 @@ export default function ServiceTwo() {
                 Nos Services
               </span>
               <h4 className="tp-section-title-40">
-                Proposez une large gamme de services pour aider les entreprises 
-                à établir et à renforcer leur présence en ligne.
+                Nous proposons une gamme complète de services pour accompagner
+                les entreprises dans le développement et le renforcement de leur
+                présence en ligne.
               </h4>
             </div>
           </div>
@@ -70,7 +71,9 @@ export default function ServiceTwo() {
                   <div key={s.id} className="accordion-items">
                     <h2 className="accordion-header">
                       <button
-                        className={`accordion-buttons ${s.id !== 1 ? "collapsed" : ""}`}
+                        className={`accordion-buttons ${
+                          s.id !== 1 ? "collapsed" : ""
+                        }`}
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target={`#collapse-${s.id}`}
@@ -86,7 +89,9 @@ export default function ServiceTwo() {
                     </h2>
                     <div
                       id={`collapse-${s.id}`}
-                      className={`accordion-collapse collapse ${s.id === 1 ? "show" : ""}`}
+                      className={`accordion-collapse collapse ${
+                        s.id === 1 ? "show" : ""
+                      }`}
                       data-bs-parent="#accordionExample"
                     >
                       <div className="accordion-body">

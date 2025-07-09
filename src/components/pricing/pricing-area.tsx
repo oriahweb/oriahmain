@@ -244,7 +244,7 @@ export default function PricingArea() {
                     className={`tp-btn-black-md ${item.id===2?"white-bg":""} w-100 text-center`}
                     href="/contact"
                   >
-                    Choose Plan
+                    Choisir ce plan
                     <span>
                       <UpArrow />
                     </span>
