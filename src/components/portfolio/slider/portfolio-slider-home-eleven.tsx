@@ -9,16 +9,16 @@ import {addEvents, slideNextTransitionStart,slidePrevTransitionStart, verTextFra
 import { WebGL } from "@/plugins";
 // images
 import showcase_1 from "@/assets/img/inner-project/showcase/astrid_inner.png";
-import showcase_2 from "@/assets/img/inner-project/showcase/archi_inner.png";
-import showcase_3 from "@/assets/img/inner-project/showcase/garoa_inner.png";
-import showcase_4 from "@/assets/img/inner-project/showcase/dario_inner.png";
-import showcase_5 from "@/assets/img/inner-project/showcase/king_inner.png";
-import showcase_6 from "@/assets/img/inner-project/showcase/jewelry_inner.png";
-import showcase_7 from "@/assets/img/inner-project/showcase/stiletto_inner.png";
-import showcase_8 from "@/assets/img/inner-project/showcase/healix_inner.png";
-import showcase_9 from "@/assets/img/inner-project/showcase/refit_inner.png";
-import showcase_10 from "@/assets/img/inner-project/showcase/creatiq_inner.png";
-import showcase_11 from "@/assets/img/inner-project/showcase/builty_inner.png";
+import showcase_2 from "@/assets/img/inner-project/showcase/archi-inner.png";
+import showcase_3 from "@/assets/img/inner-project/showcase/garoa-inner.png";
+import showcase_4 from "@/assets/img/inner-project/showcase/dario-inner.png";
+import showcase_5 from "@/assets/img/inner-project/showcase/king-inner.png";
+import showcase_6 from "@/assets/img/inner-project/showcase/jewelry-inner.png";
+import showcase_7 from "@/assets/img/inner-project/showcase/stiletto-inner.png";
+import showcase_8 from "@/assets/img/inner-project/showcase/healix-inner.png";
+import showcase_9 from "@/assets/img/inner-project/showcase/refit-inner.png";
+import showcase_10 from "@/assets/img/inner-project/showcase/creatiq-inner.png";
+import showcase_11 from "@/assets/img/inner-project/showcase/builty-inner.png";
 
 // slider data
 const slider_data = [
