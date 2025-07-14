@@ -18,7 +18,7 @@ export default function PortfolioArchiDetailsShowcaseArea() {
           className="tp-showcase-details-bg d-flex align-items-center justify-content-center include-bg p-relative"
           style={{
             backgroundImage:
-              "url(/assets/img/inner-project/showcase/archi_inner.png)",
+              "url(/assets/img/inner-project/showcase/archi-inner.png)",
           }}
         >
           <div className="tp-showcase-details-scroll smooth">
