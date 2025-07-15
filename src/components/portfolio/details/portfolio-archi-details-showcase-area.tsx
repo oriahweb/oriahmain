@@ -123,7 +123,7 @@ export default function PortfolioArchiDetailsShowcaseArea() {
                       </div>
                       <div className="col-6">
                         <div className="showcase-details-overview-info-right">
-                          <span>Montréal, Canada</span>
+                          <span>Montréal</span>
                         </div>
                       </div>
                     </div>
