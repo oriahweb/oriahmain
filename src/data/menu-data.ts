@@ -160,7 +160,7 @@ export const mobile_menu_data:{
 }[] = [
   {
     id:1,
-    title: 'Home',
+    title: 'Accueil',
     link: '/',
   },
   {
