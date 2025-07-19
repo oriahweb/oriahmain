@@ -18,7 +18,7 @@ export default function PortfolioJewelryDetailsShowcaseArea() {
           className="tp-showcase-details-bg d-flex align-items-center justify-content-center include-bg p-relative"
           style={{
             backgroundImage:
-              "url(/assets/img/inner-project/showcase/jewelry_inner.png)",
+              "url(/assets/img/inner-project/showcase/jewelry-inner.png)",
           }}
         >
           <div className="tp-showcase-details-scroll smooth">

@@ -17,7 +17,7 @@ export default function PortfolioRefitDetailsShowcaseArea() {
           className="tp-showcase-details-bg d-flex align-items-center justify-content-center include-bg p-relative"
           style={{
             backgroundImage:
-              "url(/assets/img/inner-project/showcase/refit_inner.png)",
+              "url(/assets/img/inner-project/showcase/refit-inner.png)",
           }}
         >
           <div className="tp-showcase-details-scroll smooth">

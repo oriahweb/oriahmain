@@ -2,10 +2,10 @@ import React from "react";
 import Image from "next/image";
 
 // images
-import ser_img_1 from "@/assets/img/inner-service/service/logoSer.png";
+import ser_img_1 from "@/assets/img/inner-service/service/med_ser.png";
 import ser_img_2 from "@/assets/img/inner-service/service/SiteSer.png";
-import ser_img_3 from "@/assets/img/inner-service/service/seoSer.png";
-import ser_img_4 from "@/assets/img/inner-service/service/chatSer.png";
+import ser_img_3 from "@/assets/img/inner-service/service/sero_ser.png";
+import ser_img_4 from "@/assets/img/inner-service/service/chat_ser.png";
 import { RightArrow, ShapeTwo } from "../svg";
 import Link from "next/link";
 
