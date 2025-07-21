@@ -3,10 +3,9 @@ import Image from "next/image";
 import { Hand } from "../svg";
 
 // images
-import shape from "@/assets/img/inner-about/about/shape-1.png";
 import ab_1 from "@/assets/img/inner-about/about/about1.jpg";
-import ab_2 from "@/assets/img/inner-about/about/about3.png";
-import ab_3 from "@/assets/img/inner-about/about/about2.jpg";
+// import ab_2 from "@/assets/img/inner-about/about/about3.png";
+import ab_3 from "@/assets/img/inner-about/about/about_4.jpg";
 
 export default function AboutUsArea() {
   return (
@@ -26,13 +25,13 @@ export default function AboutUsArea() {
             </div>
             <div className="col-xl-6 col-lg-6 col-md-6">
               <div className="ab-about-right-thumb p-relative">
-                <Image
+                {/* <Image
                   data-speed="1.1"
                   className="inner-img z-index-5"
                   src={ab_2}
                   alt="about-img"
                   style={{ height: "auto" }}
-                />
+                /> */}
                 <Image
                   data-speed="0.9"
                   src={ab_3}
