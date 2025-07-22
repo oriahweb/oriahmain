@@ -29,7 +29,7 @@ const AboutOne = () => {
                 <Image src={ab_5} alt="ab-img" style={imgStyle} />
               </div>
               <div className="tp-about-2-thumb-inner">
-                <Image src={ab_2} alt="ab-img" style={imgStyle} />
+                {/* <Image src={ab_2} alt="ab-img" style={imgStyle} /> */}
                 <span className="tp-about-2-thumb-text">
                   Créer des marques avec intention et précision.
                 </span>
@@ -58,7 +58,7 @@ const AboutOne = () => {
             </div>
           </div>
           <div className="col-12 col-md-6 col-lg-6 col-xl-2 order-1">
-            <div className="text-md-end text-center">
+            <div className="text-md-end text-center d-none d-xl-block">
               <Image
                 src={ab_3}
                 alt="ab-img"
